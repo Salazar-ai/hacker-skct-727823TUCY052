@@ -1,0 +1,12 @@
+[
+  {
+    "ip": "10.41.2.37",
+    "mac": "5E:EA:09:3C:49:EC",
+    "vendor": "Unknown Vendor",
+    "open_ports": [],
+    "device_type": "Unknown IoT / Generic Device",
+    "confidence": "Low",
+    "banners": {},
+    "timestamp": "2026-03-30 07:42:31"
+  }
+]

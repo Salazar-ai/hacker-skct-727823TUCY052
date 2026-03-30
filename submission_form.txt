@@ -2,7 +2,7 @@ Name: Varun V
 Roll Number: 52
 Project Name: IoT Device Fingerprinter
 Project Category: Network Reconnaissance / IoT Security
-GitHub URL: https://github.com/[YOUR_USERNAME]/hacker-skct-52
-Total Commits: [FILL BEFORE SUBMISSION]
-Tools Used: Python stdlib (socket, ipaddress, subprocess, concurrent.futures, re, json), rich
+GitHub URL: https://github.com/Salazar-ai/hacker-skct-727823TUCY052
+Total Commits: 7
+Tools Used: Python stdlib (socket, ipaddress, subprocess, threading, json, re, datetime), rich
 One-Line Summary: Fingerprints IoT devices on a local network by correlating open ports, MAC vendor OUI data, and service banners to classify device type with confidence scoring.
