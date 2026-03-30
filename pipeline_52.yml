@@ -1,0 +1,23 @@
+project_name: "52_IoTDeviceFingerprinter"
+student_name: "Varun V"
+roll_number: "52"
+version: "1.0.0"
+
+stages:
+  - name: setup
+    script: code/setup_lab.py
+    description: "Verify environment and install dependencies"
+
+  - name: run
+    script: code/run_tool.py
+    description: "Auto-detect network and fingerprint devices"
+    args: ["--banner", "--output", "results.json"]
+
+  - name: analyze
+    script: code/analyze_results.py
+    description: "Generate analysis report from results"
+    args: ["--input", "results.json", "--output", "analysis_report.txt"]
+
+artifacts:
+  - results.json
+  - analysis_report.txt

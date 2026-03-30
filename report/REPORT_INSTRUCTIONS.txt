@@ -1,0 +1,15 @@
+Write a 2-page PDF and save it as: report.pdf in this folder.
+
+Page 1:
+  - Tool description (3-4 sentences)
+  - Test results table:
+    | Test Case | Target        | Ports Found      | Device Type          | Confidence |
+    |-----------|---------------|------------------|----------------------|------------|
+    | TC1       | <router ip>   | [fill after run] | [fill after run]     | [fill]     |
+    | TC2       | <subnet>/24   | [fill after run] | [multiple]           | [fill]     |
+    | TC3       | <router ip>   | [fill after run] | [fill after run]     | [fill]     |
+
+Page 2:
+  - Analysis of findings (2-3 paragraphs)
+  - Real error encountered (copy-paste actual traceback — NOT generic text)
+  - Ethical considerations (1 paragraph)
